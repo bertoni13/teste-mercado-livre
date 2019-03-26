@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo_ML from "../img/Logo_ML.png";
 import ic_shipping from "../img/ic_shipping.png";
 import ic_Search from "../img/ic_Search.png";
 import loading from "../img/ajax-loader.gif";
 import './Home.scss';
-import SearchInput, {createFilter} from 'react-search-input'
-import Details from "../details/Details"
+import SearchInput from 'react-search-input'
 
 class Home extends Component {
   constructor(props) {

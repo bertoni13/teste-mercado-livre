@@ -59,6 +59,7 @@ section {
     .wrap {
       display: flex;
       flex-wrap: wrap;
+      border-bottom: 1px solid #c1c1c1;
       &:hover {
         background: #f3f3f3;
         cursor: pointer;
