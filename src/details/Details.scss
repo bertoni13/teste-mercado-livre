@@ -1,0 +1,74 @@
+.Details {
+  header {
+    font-size: 24px;
+    a {
+      text-decoration: none;
+    }
+    div {
+      color: #000;
+      background: DodgerBlue;
+      width: 100px;
+      padding: 10px;
+      color: #fff;
+      justify-content: center;
+      &:hover {
+        background: blue;
+      }
+    }
+  }
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    .desc-container {
+      margin: 30px;
+      text-align: left;
+      .title {
+        font-size: 22px;
+        font-weight: normal;
+        margin-bottom: 20px;
+      }
+      .desc {
+        color: gray;
+        font-size: 14px;
+        width: 700px;
+      }
+    }
+    .container {
+      width: 300px;
+      margin: 30px;
+      text-align: left;
+      padding-top: 20px;
+      .sold {
+        display: inline-flex;
+      }
+      .title {
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .price {
+        font-size: 30px;
+        font-weight: 600;
+      }
+      .btn {
+        button {
+          background: DodgerBlue;
+          border: 0;
+          width: 100%;
+          padding: 5%;
+          border-radius: 5px;
+          color: #fff;
+          font-size: 20px;
+          margin-top: 50px;
+          margin-bottom: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+    .thumb {
+      width: 620px;
+      img {
+        width: 400px;
+      }
+    }
+  }
+}
